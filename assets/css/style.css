@@ -102,7 +102,7 @@ strong {
 }
 .hamburger-menu-overlay-link {
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 2em;
     line-height: 1.7;
     color: white;
@@ -330,7 +330,7 @@ blockquote p {
 }
 ul,
 ol {
-    padding-left: 1.6em; 
+    padding-left: 1.6em;
 }
 li ul, li ol {
     padding-left: 1em;
@@ -465,4 +465,8 @@ footer {
     code {
         border-radius: 0.2rem;
     }
+}
+
+.fa-github-square:hover, .fa-linkedin:hover, .fa-envelope-square:hover {
+    color: #696969;
 }

@@ -6,6 +6,11 @@
       {{- $.Site.Title -}}
     {{ end -}}
   </a></h1>
+  <h1 class="nav-header">
+    <a href="{{ $.Site.Params.github }}" target="_blank"><i class="fab fa-github-square"></i></a>
+    <a href="{{ $.Site.Params.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:{{ $.Site.Params.email }}" target="_blank"><i class="fas fa-envelope-square"></i></a>
+  </h1>
   <div class="hamburger-menu">
     <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
       <span></span>
